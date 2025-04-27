@@ -14,13 +14,12 @@ public class Array_2 {
         Scanner sc = new Scanner(System.in);
 
         int[] arr = new int[10];
-        int min = arr[0];
         
         for (int i = 0; i < 6; i++) {
             System.out.print("Enter arr["+i+"]: ");
             arr[i] = sc.nextInt();
         }
-
+        int min = arr[0];
         for(int i = 0; i < 6; i++){
             if(arr[i] < min){
                 min = arr[i]; 
