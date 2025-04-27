@@ -7,25 +7,17 @@ Sample Output:
 Minimum element: 1
 */
 
-import java.util.Scanner;
-
 public class Array_2 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args){
 
-        int[] arr = new int[10];
-        
-        for (int i = 0; i < 6; i++) {
-            System.out.print("Enter arr["+i+"]: ");
-            arr[i] = sc.nextInt();
-        }
+        int[] arr = {5, 8, 2, 17, 1, 9};
         int min = arr[0];
-        for(int i = 0; i < 6; i++){
+        
+        for(int i = 0; i < arr.length; i++){
             if(arr[i] < min){
                 min = arr[i]; 
             }
         }
-        System.out.println("Smallest element: " + min);
-        sc.close();
+        System.out.println("Minimum element: " + min);
     }
 }
