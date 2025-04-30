@@ -1,3 +1,5 @@
+package OOPJ;
+
 class Student {
     private int roll_no;
     private double marks;
@@ -24,6 +26,7 @@ class Student {
     }
 };
 
+
 public class Students {
     public static void main(String[] args) {
         Student s1 = new Student(34, 85.55);
@@ -41,3 +44,4 @@ public class Students {
         System.out.println(s1.hashCode());
     }
 }
+
