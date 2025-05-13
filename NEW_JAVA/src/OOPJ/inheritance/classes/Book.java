@@ -1,8 +1,3 @@
-/*
-5. Library Management System
- Problem Statement:
- Develop a base class `Book` that stores `title`, `author`, and `ISBN`. Derive a class `EBook` that adds `fileSize` and `downloadUrl`. Use single inheritance to display complete information about the book including digital features in the derived class.
-*/
 package OOPJ.inheritance.classes;
 
 public class Book {
@@ -18,7 +13,7 @@ public class Book {
         this.ISBN = ISBN;
     }
 
-    public void getBookDetails() {
-        System.out.println("Title: " + title + ", Author: " + author + ", ISBN: " + ISBN);
+    public void BookDetails() {
+        System.out.println("title: " + title + ", author: " + author + ", ISBN: " + ISBN);
     }
 }
