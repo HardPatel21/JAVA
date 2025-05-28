@@ -1,4 +1,4 @@
 package Polymorphism;
 
-public class Shape {
+public class Draw {
 }
